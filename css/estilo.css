@@ -1,0 +1,69 @@
+.invisivel {
+  display: none;
+}
+
+.visivel {
+  display: inline;
+}
+
+.inicial {
+  display: flex; /* Usar flexbox */
+  align-items: center; /* Alinhar verticalmente */
+  justify-content: center; /* Alinhar horizontalmente */
+  text-align: center;
+  font-size: 100px;
+  background-color: lightgrey;
+  width: 150px;
+  height: 200px;
+  border: 15px solid rgb(255, 0, 0);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px; /* Borda arredondada */
+}
+
+.acertou {
+  display: flex; /* Usar flexbox */
+  align-items: center; /* Alinhar verticalmente */
+  justify-content: center; /* Alinhar horizontalmente */
+  text-align: center;
+  color: yellow;
+  background-color: rgb(202, 0, 252);
+  width: 150px;
+  height: 200px;
+  border: 15px solid yellow;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px; /* Borda arredondada */
+}
+
+.errou {
+  display: flex; /* Usar flexbox */
+  align-items: center; /* Alinhar verticalmente */
+  justify-content: center; /* Alinhar horizontalmente */
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  background-color: red;
+  width: 150px;
+  height: 200px;
+  border: 15px solid black;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px; /* Borda arredondada */
+}
+body {
+  background-image: url('https://img.nsctotal.com.br/wp-content/uploads/2023/10/Desenho-quadra-Bulls-944x531.jpg');
+  background-size: cover; /* Faz a imagem cobrir toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Não repete a imagem */
+  height: 100vh; /* Altura total da janela */
+  margin: 0; /* Remove margens padrão */
+}
+.cabecalho {
+  text-align: center;
+  color: white; /* Cor do texto */
+  padding: 20px; /* Espaçamento interno */
+  background-color: rgba(255, 0, 0, 0.7); /* Fundo vermelho com transparência */
+  border-bottom: 5px solid black; /* Borda inferior */
+  margin-bottom: 20px; /* Espaçamento abaixo do cabeçalho */
+}
